@@ -1,16 +1,26 @@
-FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build-env
+#See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
+
+FROM mcr.microsoft.com/dotnet/aspnet:3.1 AS base
 WORKDIR /app
+EXPOSE 80
 
-# Copy csproj and restore as distinct layers
-COPY /aspnet-core-dotnet-core/*.csproj ./
-RUN dotnet restore
+FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
+WORKDIR /src
 
-# Copy everything else and build
-COPY /aspnet-core-dotnet-core/ ./
-RUN dotnet publish -c Release -o out
+COPY ApiCotizaciones/ApiCotizaciones.csproj ./ApiCotizaciones/
+COPY Aplication/Aplication.csproj  ./Aplication/
+COPY Domain/Domain.csproj ./Domain/
+COPY Infrastructure/Infrastructure.csproj ./Infrastructure/
+RUN ls
+RUN dotnet restore "ApiCotizaciones/ApiCotizaciones.csproj"
+COPY . .
+WORKDIR "/src/ApiCotizaciones"
+RUN dotnet build "ApiCotizaciones.csproj" -c Release -o /app/build
 
-# Build runtime image
-FROM mcr.microsoft.com/dotnet/core/aspnet:3.1-buster-slim
+FROM build AS publish
+RUN dotnet publish "ApiCotizaciones.csproj" -c Release -o /app/publish
+
+FROM base AS final
 WORKDIR /app
-COPY --from=build-env /app/out .
-ENTRYPOINT ["dotnet", "aspnet-core-dotnet-core.dll"]
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "ApiCotizaciones.dll"]
