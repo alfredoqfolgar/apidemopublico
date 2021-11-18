@@ -42,6 +42,12 @@ namespace ApiCotizaciones.Controllers
             return Ok(VehiculoReposiroty.GetVehiculos(Filtros));
         }
 
+        [HttpGet]
+        public IActionResult Test(string test)
+        {
+            return Ok("Hola");
+        }
+
 
     }
 }
