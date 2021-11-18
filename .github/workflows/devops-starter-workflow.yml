@@ -125,7 +125,7 @@ jobs:
             apiVersion:${{ env.KUBERNETESAPI }}
             extensionApiVersion:${{ env.KUBERNETESAPI }}
         helm-version: 'latest' 
-        silent: 'true'
+        silent: 'false'
 
     - uses: azure/k8s-deploy@v1
       with:
