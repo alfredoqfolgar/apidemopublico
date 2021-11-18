@@ -111,21 +111,6 @@ jobs:
         echo "::set-output name=AIKey::`az resource show -g ${{ env.RESOURCEGROUPNAME }} -n ${{ env.CLUSTERNAME }} --resource-type "Microsoft.Insights/components" --query "properties.InstrumentationKey" -o tsv`"
         echo "::add-mask::`az resource show -g ${{ env.RESOURCEGROUPNAME }} -n ${{ env.CLUSTERNAME }} --resource-type "Microsoft.Insights/components" --query "properties.InstrumentationKey" -o tsv`"
 
-    - uses: azure/k8s-bake@v1
-      id: bakeManifests
-      with:
-        renderEngine: 'helm'
-        helmChart: './Application/charts/sampleapp' 
-        overrideFiles: './Application/charts/sampleapp/values.yaml'
-        overrides: |
-            image.repository:${{ env.REGISTRYNAME }}.azurecr.io/${{ env.IMAGENAME }}
-            image.tag:${{ github.sha }}
-            imagePullSecrets:{${{ env.CLUSTERNAME }}dockerauth}
-            applicationInsights.InstrumentationKey:${{ steps.GetAppInsightsKey.outputs.AIKey }}
-            apiVersion:${{ env.KUBERNETESAPI }}
-            extensionApiVersion:${{ env.KUBERNETESAPI }}
-        helm-version: 'latest' 
-        silent: 'false'
 
     - uses: azure/k8s-deploy@v1
       with:
