@@ -26,7 +26,7 @@ namespace ApiCotizaciones.Controllers
             VehiculoReposiroty = _VehiculoReposiroty;
         }
 
-        [HttpGet("{marca}/{linea}/{modelo}")]
+        [HttpGet("buscar/{marca}/{linea}/{modelo}")]
         /// <summary>
         /// Metodo para cotizacion de vehiculos
         /// </summary>
@@ -42,10 +42,10 @@ namespace ApiCotizaciones.Controllers
             return Ok(VehiculoReposiroty.GetVehiculos(Filtros));
         }
 
-        [HttpGet]
+        [HttpGet("test/{test}")]
         public IActionResult Test(string test)
         {
-            return Ok("Hola");
+            return Ok("Hola" + test);
         }
 
 
