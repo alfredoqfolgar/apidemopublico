@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AFOLGAR\\source\\repos\\ApiCotizaciones\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\AFOLGAR\\Source\\Repos\\alfredoqfolgar\\apidemopublico\\Application\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "C:\\Users\\AFOLGAR\\source\\repos\\ApiCotizaciones\\Domain\\Domain.csproj",
+      "projectPath": "C:\\Users\\AFOLGAR\\Source\\Repos\\alfredoqfolgar\\apidemopublico\\Application\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\AFOLGAR\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AFOLGAR\\source\\repos\\ApiCotizaciones\\Domain\\obj\\",
+      "outputPath": "C:\\Users\\AFOLGAR\\Source\\Repos\\alfredoqfolgar\\apidemopublico\\Application\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

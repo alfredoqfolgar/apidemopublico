@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XttMIRV9k8Lta/6Hat+Qv5oD0Q3v0jWAQwB1laTIGqAzT4yridZymlygMgPD7nkzSvmDs8vc7pwTu7utKosLqQ==",
+  "dgSpecHash": "h3owulYnkhjVqrNyQnW4da9HufdUgC4fC9g+T4Y4CcCZL/WV2yElBhZx+cFfx34YbLf050+iKIveXh+74WnJHQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\AFOLGAR\\source\\repos\\ApiCotizaciones\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\AFOLGAR\\Source\\Repos\\alfredoqfolgar\\apidemopublico\\Application\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

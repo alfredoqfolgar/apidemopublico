@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rlFAihZv02Sezt13g71yGbvf7HhQ6pPOepsvCnj+J9dHcNsLD3buya2eXJ/16MfZs/pJOBQE8a6YJKeQXW7log==",
+  "dgSpecHash": "LYePQyLOZpt8sanzG9OOaSbyv8Qg5igBvQHh+Ib91uv0W83bNB3CAude1AyEoot/+c23gYjCWcc+pV66XLtoaA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\AFOLGAR\\source\\repos\\ApiCotizaciones\\ApiCotizaciones\\ApiCotizaciones.csproj",
+  "projectFilePath": "C:\\Users\\AFOLGAR\\Source\\Repos\\alfredoqfolgar\\apidemopublico\\Application\\ApiCotizaciones\\ApiCotizaciones.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AFOLGAR\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\AFOLGAR\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",

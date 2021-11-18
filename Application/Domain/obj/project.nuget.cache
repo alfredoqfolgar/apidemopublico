@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t1NpE2mnUCLmFvP6IhytgHCeZykvV3GJwj3hRDXFg+JSws6Tr597uCAWm4Gra3RuLu0AncjxxAenogcM0ltyiw==",
+  "dgSpecHash": "WRdkpNC+eo06VYJtKJuFUcXtqsL3jHMHL3NBAI8LlBoxX9JLJli6ZHIHI1x0hxNDHGEHEUrtEGivLW//TwJm/A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\AFOLGAR\\source\\repos\\ApiCotizaciones\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\AFOLGAR\\Source\\Repos\\alfredoqfolgar\\apidemopublico\\Application\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -7,6 +7,16 @@ using Microsoft.AspNetCore.Mvc;
 namespace ApiCotizaciones.Controllers
 {
     [ApiController]
+    [Route("")]
+    public class inical : Controller
+    { 
+        public IActionResult GetTest()
+        {
+            return Ok("");
+        }
+    }
+
+    [ApiController]
     [Route("[controller]")]
     public class VehiculosController : Controller
     {

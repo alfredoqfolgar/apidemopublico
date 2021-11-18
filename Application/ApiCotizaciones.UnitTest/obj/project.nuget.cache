@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HVUVGVZ8cAlNFb3gLsiNdt3lo4SSgX8WSs2erZKNyrj+EOFfXNTLMUZNJ5eSK8gI9kMUBs4oeNVBJr0a8KiCmQ==",
+  "dgSpecHash": "1sFVfi0tZPwDGYscamhW8pm8KTwFdPb9RMtx4dgNx1Ei/y5cgl8LdTaSzfo2qaEz5YPa2js1alD7mJLdA6Z6TQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\AFOLGAR\\source\\repos\\ApiCotizaciones\\ApiCotizaciones.UnitTest\\ApiCotizaciones.UnitTest.csproj",
+  "projectFilePath": "C:\\Users\\AFOLGAR\\Source\\Repos\\alfredoqfolgar\\apidemopublico\\Application\\ApiCotizaciones.UnitTest\\ApiCotizaciones.UnitTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AFOLGAR\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\AFOLGAR\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",

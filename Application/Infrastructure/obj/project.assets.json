@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AFOLGAR\\source\\repos\\ApiCotizaciones\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\AFOLGAR\\Source\\Repos\\alfredoqfolgar\\apidemopublico\\Application\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "C:\\Users\\AFOLGAR\\source\\repos\\ApiCotizaciones\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "C:\\Users\\AFOLGAR\\Source\\Repos\\alfredoqfolgar\\apidemopublico\\Application\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\AFOLGAR\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AFOLGAR\\source\\repos\\ApiCotizaciones\\Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\AFOLGAR\\Source\\Repos\\alfredoqfolgar\\apidemopublico\\Application\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -60,8 +60,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\AFOLGAR\\source\\repos\\ApiCotizaciones\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\AFOLGAR\\source\\repos\\ApiCotizaciones\\Domain\\Domain.csproj"
+            "C:\\Users\\AFOLGAR\\Source\\Repos\\alfredoqfolgar\\apidemopublico\\Application\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\AFOLGAR\\Source\\Repos\\alfredoqfolgar\\apidemopublico\\Application\\Domain\\Domain.csproj"
             }
           }
         }
