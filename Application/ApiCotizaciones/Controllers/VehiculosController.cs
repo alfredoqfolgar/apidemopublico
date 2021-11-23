@@ -6,11 +6,13 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ApiCotizaciones.Controllers
 {
+    
+    [ApiExplorerSettings(IgnoreApi = true)]
     [ApiController]
     [Route("")]
-    public class inical : Controller
+    public class InicalController : Controller
     { 
-        public IActionResult GetTest()
+    public IActionResult GetTest()
         {
             return Ok("");
         }
@@ -41,13 +43,6 @@ namespace ApiCotizaciones.Controllers
             VehiculosFilter Filtros = new VehiculosFilter {Marca = marca, linea=linea, modelo = modelo, equipamiento = equipamiento };
             return Ok(VehiculoReposiroty.GetVehiculos(Filtros));
         }
-
-        [HttpGet("test/{test}")]
-        public IActionResult Test(string test)
-        {
-            return Ok("Hola" + test);
-        }
-
 
     }
 }
